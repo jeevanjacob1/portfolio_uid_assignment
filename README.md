@@ -9,7 +9,7 @@ This is a personal portfolio website created for the User Interface Design (UID)
 
 ## How to Open
 1. **Locally:** Simply download or clone this repository and double click on `index.html` to open it in any modern web browser.
-2. **Hosted Version:** You can view the live, hosted version of this portfolio here: [Insert GitHub Pages link, typically https://jeevanjacob1.github.io/portfolio_uid_assignment/] (The site is hosted using GitHub Pages).
+2. **Hosted Version:** You can view the live, hosted version of this portfolio here: [https://jeevanjacob1.github.io/portfolio_uid_assignment/](https://jeevanjacob1.github.io/portfolio_uid_assignment/).
 
 ## Code Explanation
 The portfolio was built from scratch utilizing standard web technologies to ensure a strong structural foundation without relying on heavy frameworks:
