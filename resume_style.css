@@ -1,0 +1,26 @@
+body{font-family:'Times New Roman',Times,serif;margin:0;padding:0;background-color:#eceff1;color:#333;line-height:1.5}
+.main-wrapper{display:flex;max-width:1100px;margin:30px auto;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,0.1);border-radius:8px;overflow:hidden}
+.sidebar{width:32%;background:linear-gradient(180deg,#1a2a6c,#2a4858);color:#fff;padding:40px 30px}
+.sidebar .profile-section{text-align:center;margin-bottom:40px}
+.sidebar .profile-section img{width:180px;height:auto;max-height:220px;border:4px solid rgba(255,255,255,0.2);border-radius:10px;object-fit:cover;margin-bottom:20px;box-shadow:0 5px 15px rgba(0,0,0,0.3)}
+.sidebar h1{font-size:26px;margin:0;letter-spacing:1px;text-transform:uppercase}
+.sidebar .tagline{font-size:14px;color:#cbd5e0;margin:10px 0 30px}
+.sidebar h3{border-bottom:2px solid rgba(255,255,255,0.1);padding-bottom:8px;margin-top:35px;font-size:18px;text-transform:uppercase;letter-spacing:1px}
+.sidebar .sidebar-block p, .sidebar .sidebar-block ul{font-size:15px;margin:12px 0}
+.sidebar .sidebar-block i{margin-right:12px;width:20px;text-align:center;color:#3498db}
+.sidebar ul{padding-left:18px;list-style-type:none}
+.sidebar ul li{margin-bottom:8px;position:relative}
+.sidebar ul li::before{content:"•";color:#3498db;font-weight:bold;display:inline-block;width:1em;margin-left:-1em}
+.sidebar a{color:#3498db;text-decoration:none;transition:color 0.3s}
+.sidebar a:hover{color:#fff}
+.content{width:68%;padding:50px 60px;box-sizing:border-box}
+.content h2{border-bottom:3px solid #1a2a6c;padding-bottom:12px;color:#1a2a6c;text-transform:uppercase;font-size:22px;letter-spacing:1.5px;margin-bottom:30px}
+.edu-item, .project-item{margin-bottom:35px;padding-left:20px;border-left:4px solid #f1f1f1;transition:all 0.3s ease}
+.edu-item:hover, .project-item:hover{border-left-color:#1a2a6c;background-color:#f9f9f9;transform:translateX(5px)}
+.edu-item p, .project-item p{margin:8px 0;font-size:16px;color:#555}
+.edu-item b, .project-item h3{color:#1a2a6c;font-size:19px;display:block;margin-bottom:5px}
+.project-item h3{color:#2980b9}
+@media(max-width:850px){
+.main-wrapper{flex-direction:column;margin:0}
+.sidebar, .content{width:100%}
+}
